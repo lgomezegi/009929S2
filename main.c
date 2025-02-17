@@ -268,7 +268,7 @@ void checkLEDs(State state, unsigned int threshold, unsigned int led_verde, unsi
         if (blinkState) {
             *port_out |= led_rojo;     // Encender LED rojo
                 } else {
-                    *port_out &= ~led_rojo;   // Apagar LED verde
+                    *port_out &= ~led_rojo;   // Apagar LED rojo
                 }
 
 
